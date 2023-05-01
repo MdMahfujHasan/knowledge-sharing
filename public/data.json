@@ -1,0 +1,38 @@
+[
+    {
+        "id": "644fec328454b48945418998",
+        "blogImage": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "authorImage": "https://images.unsplash.com/photo-1639149888905-fb39731f2e6c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHVzZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+        "authorName": "Lorene Wagner",
+        "publish": "14 May (6 days ago)",
+        "duration": 5,
+        "title": "Mastering the Art of Code Review: Tips and Best Practices"
+    },
+    {
+        "id": "644fec320bacf6f061548325",
+        "blogImage": "https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "authorImage": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "authorName": "Alfreda Jensen",
+        "publish": "5 April (1 month ago)",
+        "duration": 8,
+        "title": "Building Scalable and Reliable Distributed Systems with Microservices Architecture"
+    },
+    {
+        "id": "644fec328b8e4b17e3164249",
+        "blogImage": "https://images.unsplash.com/photo-1605379399642-870262d3d051?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=906&q=80",
+        "authorImage": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "authorName": "Cotton Austin",
+        "publish": "18 May (2 days ago)",
+        "duration": 10,
+        "title": "The Power of Pair Programming: How Collaboration Drives Innovation"
+    },
+    {
+        "id": "644fec3282a79460367dff40",
+        "blogImage": "https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80",
+        "authorImage": "https://images.unsplash.com/photo-1557862921-37829c790f19?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHVzZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+        "authorName": "Watson Haney",
+        "publish": "7 Jan (4 months ago)",
+        "duration": 7,
+        "title": "Breaking Down Big Data: Techniques for Efficient Processing and Analysis"
+    }
+]
