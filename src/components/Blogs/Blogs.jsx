@@ -7,14 +7,19 @@ import Bookmark from '../Bookmark/Bookmark';
 const Blogs = () => {
     const [blogs, setBlogs] = useState([]);
     const [bookmark, setBookmark] = useState(0);
+    const [markAsRead, setMarkAsRead] = useState(0);
     useEffect(() => {
         fetch('data.json')
             .then(res => res.json())
             .then(data => setBlogs(data))
     }, []);
 
-    const handleBookmark = () => {
-        setBookmark(bookmark + 1);
+    const handleBookmark = (blog) => {
+        setBookmark(bookmark + blog.duration);
+
+    }
+    const handleMarkAsRead = () => {
+        setMarkAsRead(markAsRead + 1);
     }
     return (
         <main className='blogs'>
@@ -24,12 +29,14 @@ const Blogs = () => {
                         key={blog.id}
                         blog={blog}
                         handleBookmark={handleBookmark}
+                        handleMarkAsRead={handleMarkAsRead}
                     ></Blog>)
                 }
             </div>
             <div>
                 <Bookmark
                     bookmark={bookmark}
+                    markAsRead={markAsRead}
                 ></Bookmark>
             </div>
         </main>

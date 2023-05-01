@@ -48,6 +48,24 @@
     cursor: pointer;
 }
 
+.hashtags {
+    font-weight: 500;
+    font-size: 20px;
+    color: #11111199;
+}
+
+.mark-as-read {
+    font-weight: 600;
+    font-size: 20px;
+    color: #6047EC;
+    text-decoration-line: underline;
+}
+
+.mark-as-read:hover {
+    cursor: pointer;
+    text-decoration-line: none;
+}
+
 .btn-bookmark {
     cursor: pointer;
     border: 0;
