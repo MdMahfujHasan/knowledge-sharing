@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBookmark } from '@fortawesome/free-solid-svg-icons';
 
 const Blog = (props) => {
-    const { blogImage, authorImage, authorName, publish, duration, title } = props.blog;
+    const { id, blogImage, authorImage, authorName, publish, duration, title } = props.blog;
     const handleBookmark = props.handleBookmark;
     return (
         <div className='blog'>
@@ -20,7 +20,7 @@ const Blog = (props) => {
                 </div>
                 <div style={{ display: 'flex' }}>
                     <p className='read-duration'>{duration} mins read</p>
-                    <button onClick={handleBookmark} className='btn-bookmark'><FontAwesomeIcon icon={faBookmark} /></button>
+                    <button onClick={() => handleBookmark(id)} className='btn-bookmark'><FontAwesomeIcon icon={faBookmark} /></button>
                 </div>
             </div>
             <h1 className='blog-title'>{title}</h1>
