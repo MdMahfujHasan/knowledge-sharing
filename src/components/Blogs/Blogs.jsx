@@ -8,6 +8,7 @@ const Blogs = () => {
     const [blogs, setBlogs] = useState([]);
     const [bookmark, setBookmark] = useState(0);
     const [markAsRead, setMarkAsRead] = useState(0);
+    const [title, setTitle] = useState([]);
     useEffect(() => {
         fetch('data.json')
             .then(res => res.json())
@@ -16,6 +17,7 @@ const Blogs = () => {
 
     const handleBookmark = (blog) => {
         setBookmark(bookmark + blog.duration);
+        setTitle([title, ...blog.title]);
 
     }
     const handleMarkAsRead = () => {
@@ -37,6 +39,7 @@ const Blogs = () => {
                 <Bookmark
                     bookmark={bookmark}
                     markAsRead={markAsRead}
+                    title={title}
                 ></Bookmark>
             </div>
         </main>
