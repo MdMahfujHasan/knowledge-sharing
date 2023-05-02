@@ -1,4 +1,3 @@
-// https://github.com/Porgramming-Hero-web-course/b7a8-knowledge-cafe-MdMahfujHasan
 /* eslint-disable */
 import './App.css';
 import Blogs from './components/Blogs/Blogs';
