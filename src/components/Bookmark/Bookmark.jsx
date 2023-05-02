@@ -4,7 +4,6 @@ import './Bookmark.css';
 
 const Bookmark = (props) => {
     const { bookmark, markAsRead, titles } = props;
-    console.log(titles);
     return (
         <div>
             <h2 className='read-time'>Spent time on read: {bookmark} mins</h2>

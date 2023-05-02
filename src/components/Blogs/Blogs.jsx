@@ -14,7 +14,7 @@ const Blogs = () => {
             .then(res => res.json())
             .then(data => setBlogs(data))
     }, []);
-    const handleBookmark = (blog, id) => {
+    const handleBookmark = (blog) => {
         let blogTitle = [];
         blogTitle.push(blog.title);
         setTitle([...title, ...blogTitle]);
