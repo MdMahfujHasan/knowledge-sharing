@@ -15,6 +15,10 @@ nav hr {
     border: 1px solid gray;
 }
 
+.header img:hover {
+    cursor: pointer;
+}
+
 .header-title {
     font-size: 40px;
     font-weight: 700;

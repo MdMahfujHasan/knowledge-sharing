@@ -26,7 +26,7 @@ const Blog = (props) => {
             </div>
             <h1 className='blog-title'>{title}</h1>
             <p className='hashtags'>#beginners #programming</p>
-            <small onClick={handleMarkAsRead} className='mark-as-read'>Mark as read</small>
+            <small onClick={() => handleMarkAsRead(props.blog)} className='mark-as-read'>Mark as read</small>
         </div>
     );
 };

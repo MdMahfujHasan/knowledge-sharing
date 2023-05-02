@@ -3,7 +3,6 @@ import React, { useEffect, useState } from 'react';
 import './Blogs.css';
 import Blog from '../Blog/Blog';
 import Bookmark from '../Bookmark/Bookmark';
-import { faBatteryFull } from '@fortawesome/free-solid-svg-icons';
 
 const Blogs = () => {
     const [blogs, setBlogs] = useState([]);
@@ -16,12 +15,11 @@ const Blogs = () => {
             .then(data => setBlogs(data))
     }, []);
     const handleBookmark = (blog) => {
-        setBookmark(bookmark + blog.duration);
         setTitle([title, ...blog.title]);
-
-    }
-    const handleMarkAsRead = () => {
         setMarkAsRead(markAsRead + 1);
+    }
+    const handleMarkAsRead = (blog) => {
+        setBookmark(bookmark + blog.duration);
     }
     return (
         <main className='blogs'>
