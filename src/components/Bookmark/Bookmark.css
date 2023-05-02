@@ -1,0 +1,26 @@
+.read-time {
+    color: #6047EC;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 21px 48px;
+    background-color: #6047ec1a;
+    border-radius: 8px;
+}
+
+.blogs {
+    background-color: #1111110d;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.bookmark {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
