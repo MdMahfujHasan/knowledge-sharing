@@ -23,4 +23,9 @@
     font-size: 18px;
     font-weight: 600;
     margin: 0;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: 1fr;
 }
